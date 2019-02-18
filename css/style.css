@@ -1,0 +1,23 @@
+body {
+  font-size: 100%;
+  background: black;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.col {
+  padding: 1rem;
+}
