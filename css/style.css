@@ -24,3 +24,11 @@ img {
 .col {
   padding: 1rem;
 }
+
+/* media queries */
+@media (min-width: 768px) {
+  .page {
+    align-items: center;
+    height: 100vh;
+  }
+}
