@@ -1,3 +1,4 @@
+/* global */
 body {
   font-size: 100%;
   background: black;
@@ -6,17 +7,19 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* layout */
 .page {
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
+}
+.container {
+  padding: 1rem;
 }
 .row {
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  flex-direction: row;
 }
 .col {
   padding: 1rem;
