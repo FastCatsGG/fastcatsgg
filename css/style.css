@@ -89,6 +89,14 @@ header:after {
   overflow: hidden;
   box-shadow: 0 0 12px 0 rgba(0,0,0,0.05);
 }
+.pc-heading {
+  padding: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  background: black;
+  border-left: 4px solid #ff1168
+}
 .pc-component {
   display: flex;
   flex-direction: row;
@@ -111,16 +119,6 @@ header:after {
   top: 1rem;
   border-radius: 7px;
   box-shadow: 0 0 12px 0 rgba(0,0,0,0.05);
-}
-
-/* typography */
-.heading {
-  display: block;
-  margin: 0 0 1rem;
-  font-size: 21px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: -1px;
 }
 
 /* footer */
@@ -171,6 +169,12 @@ footer {
   }
   .secondary {
     padding: 0 1rem 0 0;
+  }
+  .label {
+    flex-basis: 30%;
+  }
+  .value {
+    flex-basis: 70%;
   }
   .pc-photo {
     top: 2rem;
