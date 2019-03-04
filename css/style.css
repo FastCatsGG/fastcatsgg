@@ -8,6 +8,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+p {
+  margin: 0;
+  padding: 0;
+}
 ul {
   margin: 0;
   padding: 0;
@@ -20,7 +24,6 @@ header {
   margin: 0 0 -12rem;
   z-index: 1;
   overflow: hidden;
-  border-top: 3px solid #ff1168;
 }
 .header-inner {
   display: flex;
@@ -56,7 +59,7 @@ header:after {
 
 /* layout */
 .content {
-  padding: 12rem 0 0;
+  padding: 14rem 0 0;
   background: #ececec;
 }
 .container {
@@ -78,6 +81,14 @@ header:after {
 }
 
 /* content */
+.intro {
+  flex-grow: 1;
+  padding: 1rem;
+  background: white;
+  border-top: 3px solid #ff1168;
+  border-radius: 7px;
+  box-shadow: 0 0 12px 0 rgba(0,0,0,0.05);
+}
 .pc-specs {
   margin: 0 0 2rem;
   border-radius: 7px;
@@ -165,14 +176,15 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .row {
-    padding: 2rem;
-  }
+
   .primary {
     padding: 0 0 0 1rem;
   }
   .secondary {
     padding: 0 1rem 0 0;
+  }
+  .intro {
+    padding: 2rem;
   }
   .label {
     flex-basis: 30%;
