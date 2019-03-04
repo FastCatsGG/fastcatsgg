@@ -90,12 +90,15 @@ header:after {
   box-shadow: 0 0 12px 0 rgba(0,0,0,0.05);
 }
 .pc-heading {
-  padding: 1rem;
   font-weight: bold;
   text-transform: uppercase;
   color: white;
   background: black;
-  border-left: 4px solid #ff1168
+}
+.pc-heading span {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-bottom: 4px solid #ff1168
 }
 .pc-component {
   display: flex;
@@ -115,6 +118,7 @@ header:after {
   box-sizing: border-box;
 }
 .pc-photo {
+  position: -webkit-sticky;
   position: sticky;
   top: 1rem;
   border-radius: 7px;
