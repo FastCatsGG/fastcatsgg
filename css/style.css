@@ -84,6 +84,11 @@ header:after {
   overflow: hidden;
   box-shadow: 0 0 12px 0 rgba(0,0,0,0.05);
 }
+.pc-peripherals {
+  border-radius: 7px;
+  overflow: hidden;
+  box-shadow: 0 0 12px 0 rgba(0,0,0,0.05);
+}
 .pc-component {
   display: flex;
   flex-direction: row;
@@ -132,6 +137,11 @@ footer {
 .social-link {
   display: inline-block;
   margin: 1rem;
+}
+
+/* juicer */
+.juicer-feed h1.referral {
+  display: none !important;
 }
 
 /* media queries */
